@@ -1,4 +1,4 @@
-const BASE = import.meta.env.VITE_API_URL || 'https://vit-hmt1.onrender.com';
+const BASE = import.meta.env.VITE_API_URL || 'https://vitnetwork-nls4.onrender.com';
 
 async function post(path, body) {
   const tg = window.Telegram?.WebApp;
